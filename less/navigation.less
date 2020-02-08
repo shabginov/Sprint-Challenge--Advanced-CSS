@@ -1,25 +1,18 @@
 // Navigation code here
 section.nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2%;
-    padding: 2%;
+    .custom-layout(column, space-between, center);
+    .element-boxing(10px, 12px);
     // border: 1px solid blue;
 
-    div.heading {
-        margin: 1%;
-        padding: 1%;
+    h1 {
+        .element-boxing(1%, 1%);
     }
-
+   
     a {
         text-decoration: none;
         color: @links;
-        padding: 10px;
-        margin: 10px;
-        font-size: 24px;
+        font-size: 1.6rem;
+        .element-boxing(5px, 5px);
     }
-
 
 }

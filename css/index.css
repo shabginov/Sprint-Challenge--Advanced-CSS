@@ -171,19 +171,19 @@ section.nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 2%;
-  padding: 2%;
+  margin: 10px;
+  padding: 12px;
 }
-section.nav div.heading {
+section.nav h1 {
   margin: 1%;
   padding: 1%;
 }
 section.nav a {
   text-decoration: none;
   color: #333333;
-  padding: 10px;
-  margin: 10px;
-  font-size: 24px;
+  font-size: 1.6rem;
+  margin: 5px;
+  padding: 5px;
 }
 footer {
   color: #22283B;
