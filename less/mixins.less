@@ -1,1 +1,22 @@
 // Mixins Here
+.display-center{
+    display: flex;
+    justify-content: center;
+}
+.custom-layout(@flex-dir, @justify, @align) {
+    display: flex;
+    flex-direction: @flex-dir;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.element-boxing(@margin, @padding) {
+    margin: @margin;
+    padding: @padding;
+}
+
+.button-size(@height, @width, @border-radius) {
+    height: @height;
+    width: @width;
+    border-radius: @border-radius;
+}
